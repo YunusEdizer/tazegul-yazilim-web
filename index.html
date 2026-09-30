@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tazegül Yazılım ve Danışmanlık | Kars Yazılım, Web ve Dijital Reklam</title>
+  <meta name="description" content="Kars merkezli yazılım ve dijital ajans. Web siteleri, e-ticaret, mobil uygulamalar, işletmeye özel yazılımlar, dijital reklam ve SEO hizmetleri.">
+  <meta name="theme-color" content="#0E1320">
+  <link rel="canonical" href="https://tazegul-yazilim.vercel.app/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <meta property="og:url" content="https://tazegul-yazilim.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:site_name" content="Tazegül Yazılım ve Danışmanlık">
+  <meta property="og:title" content="Tazegül Yazılım ve Danışmanlık">
+  <meta property="og:description" content="Web siteleri, e-ticaret, mobil uygulamalar, özel yazılım ve dijital reklam — fikirden yayına tek muhatapla.">
+  <meta property="og:image" content="https://tazegul-yazilim.vercel.app/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Tazegül Yazılım ve Danışmanlık",
+    "url": "https://tazegul-yazilim.vercel.app/",
+    "description": "Yazılım geliştirme, web siteleri, e-ticaret, mobil uygulama, dijital reklam ve SEO hizmetleri.",
+    "telephone": "+90 538 897 88 56",
+    "taxID": "8331187815",
+    "founder": { "@type": "Person", "name": "Emirhan Tazegül" },
+    "foundingDate": "2026-09-01",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "İstasyon Mah. İsmail Aytemiz Cad. No: 147 D: 6",
+      "addressLocality": "Merkez",
+      "addressRegion": "Kars",
+      "addressCountry": "TR"
+    },
+    "areaServed": "TR"
+  }
+  </script>
+  <script>
+    document.documentElement.classList.add('js');
+    try { var t = localStorage.getItem('tz-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">İçeriğe geç</a>
+
+  <!-- İkon seti -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-megaphone" viewBox="0 0 24 24"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1zM15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></symbol>
+    <symbol id="i-qr" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3M21 14v.01M14 21h7v-4"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 13H6zM9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="M4 17v-5l2.2-5.2A2 2 0 0 1 8 5.5h8a2 2 0 0 1 1.8 1.3L20 12v5M4 12h16M6 17v2M18 17v2M4 17h16"/><circle cx="8" cy="14.5" r=".6"/><circle cx="16" cy="14.5" r=".6"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.1L3 17.7 6.3 21l6.3-6.3a4 4 0 0 0 5.1-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 5.6a5.5 5.5 0 0 0-7.8 0L12 6.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 22l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/><path d="M7 12h2.5l1.5-2.5 2 5 1.5-2.5H17"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5zM4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+    <symbol id="i-mobile" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M8 21h8"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M8 11h6M11 8v6"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0-3.5 10.9V16h7v-2.1A6 6 0 0 0 12 3zM9.5 20h5"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8 12 3 3 8v8l9 5 9-5zM3 8l9 5 9-5M12 13v8"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M1 4h14v12H1zM15 9h4l3 3v4h-7"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="18.5" cy="18.5" r="2"/></symbol>
+    <symbol id="i-clip" viewBox="0 0 24 24"><path d="M9 3h6v3H9zM7 4.5H5V21h14V4.5h-2M9 11h6M9 15h4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 18l-6-6 6-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.6-4.8A8.5 8.5 0 1 1 7.8 19.4z"/><path d="M9 9.5c.3 1.6 1.9 3.9 4.5 4.8l1.2-1.1 1.6.7-.4 1.6c-3.4.3-7.4-3.3-7.6-6.6L9.9 8.3l.8 1.5z" fill="currentColor" stroke="none"/></symbol>
+  </svg>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Tazegül Yazılım ana sayfa">
+        <img src="favicon.svg" alt="" width="34" height="34">
+        <span class="brand__text">
+          <strong>Tazegül</strong>
+          <small>Yazılım &amp; Danışmanlık</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Ana menü">
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#sektorler">Sektörler</a>
+        <a href="#urunler">Ürünler</a>
+        <a href="#isler">İşler</a>
+        <a href="#surec">Süreç</a>
+        <a href="#sss">SSS</a>
+        <a href="#iletisim" class="nav__cta-mobile">Teklif al</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Temayı değiştir">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+        </button>
+        <a class="btn btn--primary btn--sm header__cta" href="#iletisim">Teklif al</a>
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="progress" aria-hidden="true"><i id="progress"></i></div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow reveal"><span class="dot"></span> Kars merkezli yazılım &amp; dijital ajans</p>
+          <h1 class="split" aria-label="İşinizi büyüten yazılımı birlikte kuralım.">
+            <span class="w" style="--i:0"><span>İşinizi</span></span>
+            <span class="w" style="--i:1"><span>büyüten</span></span>
+            <span class="w" style="--i:2"><span>yazılımı</span></span>
+            <span class="w" style="--i:3"><span class="accent">birlikte</span></span>
+            <span class="w" style="--i:4"><span>kuralım.</span></span>
+          </h1>
+          <p class="lead reveal">Web siteleri, e-ticaret, mobil uygulamalar, işletmenize özel yazılımlar ve dijital reklam — fikir aşamasından yayına kadar, tek muhatapla.</p>
+          <div class="hero__cta reveal">
+            <a class="btn btn--primary" href="#iletisim">
+              Proje görüşmesi başlat
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#hizmetler">Hizmetleri incele</a>
+          </div>
+          <ul class="hero__facts reveal">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Resmî kayıtlı, faturalı işletme</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Web · Mobil · Masaüstü</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Kendi platformumuz MotorumBurada yayında</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal" aria-hidden="true">
+          <div class="editor">
+            <div class="editor__bar">
+              <span class="editor__dots"><i></i><i></i><i></i></span>
+              <span class="editor__tab is-active">proje.ts</span>
+              <span class="editor__tab">tasarim.fig</span>
+            </div>
+            <pre class="editor__code"><code id="typed"></code><span class="caret"></span></pre>
+            <div class="editor__status">
+              <span><i class="pulse"></i> canlı önizleme</span>
+              <span>TypeScript · UTF-8</span>
+            </div>
+          </div>
+          <div class="chip chip--a"><span class="chip__icon"><svg><use href="#i-bolt"/></svg></span><div><strong>Hızlı yüklenen</strong><small>performans odaklı</small></div></div>
+          <div class="chip chip--b"><span class="chip__icon"><svg><use href="#i-mobile"/></svg></span><div><strong>Mobil uyumlu</strong><small>her ekranda kusursuz</small></div></div>
+          <div class="chip chip--c"><span class="chip__icon"><svg><use href="#i-shield"/></svg></span><div><strong>KVKK gözetimli</strong><small>güvenli altyapı</small></div></div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-label="Kullandığımız teknolojiler">
+        <div class="marquee__track">
+          <span>Next.js</span><span>React</span><span>.NET</span><span>Node.js</span><span>Flutter</span><span>PostgreSQL</span><span>TypeScript</span><span>Tailwind</span><span>Vercel</span><span>Cloudflare</span><span>Figma</span><span>Google Ads</span><span>Meta Ads</span>
+          <span aria-hidden="true">Next.js</span><span aria-hidden="true">React</span><span aria-hidden="true">.NET</span><span aria-hidden="true">Node.js</span><span aria-hidden="true">Flutter</span><span aria-hidden="true">PostgreSQL</span><span aria-hidden="true">TypeScript</span><span aria-hidden="true">Tailwind</span><span aria-hidden="true">Vercel</span><span aria-hidden="true">Cloudflare</span><span aria-hidden="true">Figma</span><span aria-hidden="true">Google Ads</span><span aria-hidden="true">Meta Ads</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="hizmetler">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Hizmetler</p>
+          <h2>Dijitalde ihtiyacınız olan her şey, tek çatı altında.</h2>
+          <p>Kodu yazan, reklamı kurgulayan ve sonucu takip eden aynı ekip. Aradaki aracıları kaldırıyoruz; siz işinize odaklanıyorsunuz.</p>
+        </div>
+
+        <div class="bento">
+          <article class="card card--feature reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg></div>
+            <h3>İşletmenize özel yazılım</h3>
+            <p>Hazır paketlere sığmayan işler için sıfırdan geliştirme: müşteri takibi (CRM), stok ve sipariş yönetimi, randevu sistemleri, yönetim panelleri. Veritabanı, sunucu ve ağ altyapısıyla birlikte.</p>
+            <ul class="tags"><li>CRM</li><li>Stok &amp; sipariş</li><li>Randevu</li><li>API entegrasyonu</li><li>Veritabanı</li></ul>
+            <div class="card__art" aria-hidden="true">
+              <div class="mini-dash">
+                <div class="mini-dash__row"><b></b><b></b><b></b></div>
+                <div class="mini-dash__chart"><i style="--h:40%"></i><i style="--h:62%"></i><i style="--h:48%"></i><i style="--h:78%"></i><i style="--h:66%"></i><i style="--h:90%"></i><i style="--h:72%"></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M8 21h8"/></svg></div>
+            <h3>Web sitesi &amp; kurumsal kimlik</h3>
+            <p>Hızlı, mobil uyumlu, arama motorlarına hazır kurumsal siteler ve kampanya sayfaları. İçeriği kendiniz güncelleyebileceğiniz yönetim paneliyle.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg></div>
+            <h3>E-ticaret çözümleri</h3>
+            <p>Ürün ve stok yönetimi, sanal POS, kargo ve pazaryeri entegrasyonlarıyla internetten satışa hazır mağazalar.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+            <h3>Mobil &amp; masaüstü uygulama</h3>
+            <p>iOS, Android ve Windows için kullanıcı dostu uygulamalar; mağaza yayını dahil.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1zM15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></div>
+            <h3>Dijital reklam &amp; sosyal medya</h3>
+            <p>Reklam tasarımı, metin yazarlığı, reklam filmi senaryosu, Google ve Meta reklam yönetimi, medya planlama.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M8 11h6M11 8v6"/></svg></div>
+            <h3>SEO &amp; yerel görünürlük</h3>
+            <p>Google İşletme Profili, arama motoru optimizasyonu ve içerik stratejisiyle “yakınımdaki” aramalarda öne çıkın.</p>
+          </article>
+
+          <article class="card card--wide reveal">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0-3.5 10.9V16h7v-2.1A6 6 0 0 0 12 3zM9.5 20h5"/></svg></div>
+            <div>
+              <h3>Teknoloji danışmanlığı</h3>
+              <p>Mevcut sisteminizi analiz edip doğru teknolojiyi, doğru bütçeyle seçmenize yardımcı oluyoruz. Dijitale geçişte nereden başlayacağınızı birlikte planlıyoruz.</p>
+            </div>
+            <a class="link-arrow" href="#iletisim">Görüşme planla <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTORS ============ -->
+    <section class="section section--soft" id="sektorler">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Sektörel çözümler</p>
+          <h2>İşletmenizin diline uygun dijital çözümler.</h2>
+          <p>Her sektörün müşterisi farklı arar, farklı karar verir. Hazır şablon yerine sizin işinize göre kurgulanmış çözümler sunuyoruz.</p>
+        </div>
+
+        <div class="sectors reveal">
+          <div class="sectors__tabs" role="tablist" aria-label="Sektörler">
+            <button role="tab" id="tab-otel" aria-controls="p-otel" aria-selected="true" class="is-active"><svg><use href="#i-cal"/></svg>Otel &amp; pansiyon</button>
+            <button role="tab" id="tab-restoran" aria-controls="p-restoran" aria-selected="false" tabindex="-1"><svg><use href="#i-qr"/></svg>Restoran &amp; kafe</button>
+            <button role="tab" id="tab-oto" aria-controls="p-oto" aria-selected="false" tabindex="-1"><svg><use href="#i-car"/></svg>Oto galeri &amp; servis</button>
+            <button role="tab" id="tab-saglik" aria-controls="p-saglik" aria-selected="false" tabindex="-1"><svg><use href="#i-heart"/></svg>Sağlık &amp; klinik</button>
+            <button role="tab" id="tab-magaza" aria-controls="p-magaza" aria-selected="false" tabindex="-1"><svg><use href="#i-bag"/></svg>Mağaza &amp; perakende</button>
+            <button role="tab" id="tab-egitim" aria-controls="p-egitim" aria-selected="false" tabindex="-1"><svg><use href="#i-book"/></svg>Eğitim &amp; kurs</button>
+          </div>
+
+          <!-- Otel -->
+          <div class="sector" role="tabpanel" id="p-otel" aria-labelledby="tab-otel">
+            <div class="sector__copy">
+              <h3>Misafirleriniz sizi önce internette arıyor.</h3>
+              <p>Sarıkamış'ın kayak sezonu, Ani Ören Yeri'nin ziyaretçileri, Doğu Ekspresi'nin yolcuları… Konaklamayı telefonundan planlayan misafire doğrudan rezervasyon alabileceğiniz bir vitrin kuruyoruz.</p>
+              <ul class="ticks">
+                <li>Online rezervasyon ve müsaitlik takvimi</li>
+                <li>Türkçe – İngilizce çok dilli site</li>
+                <li>Google Haritalar ve İşletme Profili</li>
+                <li>Sezon öncesi Instagram ve Google reklamları</li>
+              </ul>
+              <button class="btn btn--primary" type="button" data-sector="Otel &amp; pansiyon" data-services="Web sitesi,Dijital reklam,SEO">Otelim için teklif al <svg><use href="#i-arrow"/></svg></button>
+            </div>
+            <div class="mock" aria-hidden="true">
+              <div class="mock__head"><span class="mock__logo"><svg><use href="#i-cal"/></svg></span><div><b>Rezervasyon</b><small>Kış sezonu açık</small></div><em>Canlı</em></div>
+              <div class="mock__row"><span><svg><use href="#i-cal"/></svg></span><div><strong>Giriş – çıkış tarihi</strong><small>Anlık müsaitlik kontrolü</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-users"/></svg></span><div><strong>Oda ve kişi seçimi</strong><small>Fotoğraflı oda tanıtımı</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-globe"/></svg></span><div><strong>TR / EN</strong><small>Yabancı misafirler için</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__cta">Müsaitliği kontrol et</div>
+            </div>
+          </div>
+
+          <!-- Restoran -->
+          <div class="sector" role="tabpanel" id="p-restoran" aria-labelledby="tab-restoran" hidden>
+            <div class="sector__copy">
+              <h3>Menünüz masada, siparişiniz telefonda.</h3>
+              <p>QR menüden paket siparişe, Google'daki görünürlüğünüzden sosyal medya kampanyalarınıza kadar lezzetinizi dijitalde de öne çıkarıyoruz.</p>
+              <ul class="ticks">
+                <li>QR menü ve kolay fiyat güncelleme</li>
+                <li>Online ve WhatsApp üzerinden sipariş</li>
+                <li>“Yakınımdaki restoranlar” aramalarında görünürlük</li>
+                <li>Kampanya ve sosyal medya tasarımları</li>
+              </ul>
+              <button class="btn btn--primary" type="button" data-sector="Restoran &amp; kafe" data-services="Web sitesi,SEO,Dijital reklam">Restoranım için teklif al <svg><use href="#i-arrow"/></svg></button>
+            </div>
+            <div class="mock" aria-hidden="true">
+              <div class="mock__head"><span class="mock__logo"><svg><use href="#i-qr"/></svg></span><div><b>QR Menü</b><small>Masa 4</small></div><em>Açık</em></div>
+              <div class="mock__row"><span><svg><use href="#i-list"/></svg></span><div><strong>Kategoriler</strong><small>Kahvaltı · Ana yemek · Tatlı</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-bell"/></svg></span><div><strong>Günün menüsü</strong><small>Tek tıkla güncellenir</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-truck"/></svg></span><div><strong>Paket sipariş</strong><small>WhatsApp'a düşer</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__cta">Sipariş ver</div>
+            </div>
+          </div>
+
+          <!-- Oto -->
+          <div class="sector" role="tabpanel" id="p-oto" aria-labelledby="tab-oto" hidden>
+            <div class="sector__copy">
+              <h3>Araçlarınız ve servisiniz tek panelde.</h3>
+              <p>Stoktaki araçlarınızı sergileyen bir site, servis randevularını toplayan bir sistem; motosiklet satıyorsanız MotorumBurada'da size ait bir mağaza sayfası.</p>
+              <ul class="ticks">
+                <li>Araç stok ve ilan yönetimi</li>
+                <li>Online servis randevusu</li>
+                <li>Müşteri ve bakım geçmişi takibi</li>
+                <li>MotorumBurada mağaza ve kurumsal üyelik</li>
+              </ul>
+              <button class="btn btn--primary" type="button" data-sector="Oto galeri &amp; servis" data-services="Web sitesi,Özel yazılım">İşletmem için teklif al <svg><use href="#i-arrow"/></svg></button>
+            </div>
+            <div class="mock" aria-hidden="true">
+              <div class="mock__head"><span class="mock__logo"><svg><use href="#i-wrench"/></svg></span><div><b>Servis randevusu</b><small>Bu hafta 3 boş saat</small></div><em>Yeni</em></div>
+              <div class="mock__row"><span><svg><use href="#i-car"/></svg></span><div><strong>Araç bilgisi</strong><small>Marka, model, kilometre</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-clock"/></svg></span><div><strong>Uygun saat seçimi</strong><small>Çakışma olmadan</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-clip"/></svg></span><div><strong>Bakım geçmişi</strong><small>Her araç için kayıt</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__cta">Randevu oluştur</div>
+            </div>
+          </div>
+
+          <!-- Sağlık -->
+          <div class="sector" role="tabpanel" id="p-saglik" aria-labelledby="tab-saglik" hidden>
+            <div class="sector__copy">
+              <h3>Randevu almak bir mesaj kadar kolay.</h3>
+              <p>Danışanlarınızın size kolayca ulaştığı, güven veren ve bilgilendiren bir web sitesi; kişisel verileri KVKK gözetilerek işleyen bir randevu altyapısı.</p>
+              <ul class="ticks">
+                <li>Online randevu talebi</li>
+                <li>Hizmet ve uzman tanıtım sayfaları</li>
+                <li>KVKK aydınlatma ve açık rıza akışları</li>
+                <li>Google Haritalar'da kolay yol tarifi</li>
+              </ul>
+              <button class="btn btn--primary" type="button" data-sector="Sağlık &amp; klinik" data-services="Web sitesi,Özel yazılım">Kliniğim için teklif al <svg><use href="#i-arrow"/></svg></button>
+            </div>
+            <div class="mock" aria-hidden="true">
+              <div class="mock__head"><span class="mock__logo"><svg><use href="#i-heart"/></svg></span><div><b>Randevu talebi</b><small>Hafta içi 09:00 – 18:00</small></div><em>Uygun</em></div>
+              <div class="mock__row"><span><svg><use href="#i-users"/></svg></span><div><strong>Uzman seçimi</strong><small>Tanıtım sayfalarıyla</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-cal"/></svg></span><div><strong>Gün ve saat</strong><small>Talep olarak iletilir</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-shield"/></svg></span><div><strong>KVKK onayı</strong><small>Aydınlatma metniyle</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__cta">Randevu iste</div>
+            </div>
+          </div>
+
+          <!-- Mağaza -->
+          <div class="sector" role="tabpanel" id="p-magaza" aria-labelledby="tab-magaza" hidden>
+            <div class="sector__copy">
+              <h3>Dükkânınız 7 gün 24 saat açık olsun.</h3>
+              <p>Mağazanızı Türkiye'nin her yerine satış yapan bir online mağazaya dönüştürüyoruz; stok, sipariş ve kargo tek ekrandan yönetilsin.</p>
+              <ul class="ticks">
+                <li>E-ticaret sitesi ve sanal POS</li>
+                <li>Stok ve sipariş yönetim paneli</li>
+                <li>Pazaryeri entegrasyonları</li>
+                <li>Kargo firması entegrasyonu</li>
+              </ul>
+              <button class="btn btn--primary" type="button" data-sector="Mağaza &amp; perakende" data-services="E-ticaret,Dijital reklam">Mağazam için teklif al <svg><use href="#i-arrow"/></svg></button>
+            </div>
+            <div class="mock" aria-hidden="true">
+              <div class="mock__head"><span class="mock__logo"><svg><use href="#i-bag"/></svg></span><div><b>Sipariş paneli</b><small>Bugün</small></div><em>Aktif</em></div>
+              <div class="mock__row"><span><svg><use href="#i-card"/></svg></span><div><strong>Ödeme alındı</strong><small>Sanal POS ile güvenli</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-box"/></svg></span><div><strong>Stok güncellendi</strong><small>Tüm kanallarda eş zamanlı</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-truck"/></svg></span><div><strong>Kargoya verildi</strong><small>Takip numarası iletildi</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__cta">Siparişleri gör</div>
+            </div>
+          </div>
+
+          <!-- Eğitim -->
+          <div class="sector" role="tabpanel" id="p-egitim" aria-labelledby="tab-egitim" hidden>
+            <div class="sector__copy">
+              <h3>Kayıtlar da duyurular da tek yerden.</h3>
+              <p>Kurslar, etüt merkezleri ve spor okulları için ön kayıt formları, ders programları ve öğrenci–veli duyurularını yöneten sistemler.</p>
+              <ul class="ticks">
+                <li>Online ön kayıt ve başvuru</li>
+                <li>Ders programı ve duyuru sayfaları</li>
+                <li>Öğrenci / üye yönetim paneli</li>
+                <li>Kayıt dönemi reklam kampanyaları</li>
+              </ul>
+              <button class="btn btn--primary" type="button" data-sector="Eğitim &amp; kurs" data-services="Web sitesi,Özel yazılım,Dijital reklam">Kurumum için teklif al <svg><use href="#i-arrow"/></svg></button>
+            </div>
+            <div class="mock" aria-hidden="true">
+              <div class="mock__head"><span class="mock__logo"><svg><use href="#i-book"/></svg></span><div><b>Ön kayıt</b><small>Yeni dönem</small></div><em>Açık</em></div>
+              <div class="mock__row"><span><svg><use href="#i-clip"/></svg></span><div><strong>Başvuru formu</strong><small>Belgeler dahil</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-cal"/></svg></span><div><strong>Ders programı</strong><small>Gruplara göre</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__row"><span><svg><use href="#i-bell"/></svg></span><div><strong>Duyurular</strong><small>Öğrenci ve velilere</small></div><i><svg><use href="#i-check"/></svg></i></div>
+              <div class="mock__cta">Kayıt ol</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCTS ============ -->
+    <section class="section" id="urunler">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Ürünlerimiz</p>
+          <h2>Başkaları için yaptığımızı, önce kendimiz için yaptık.</h2>
+          <p>Tasarımından sunucusuna, mobil uygulamasından reklam kampanyasına kadar kendi geliştirip işlettiğimiz platform.</p>
+        </div>
+
+        <article class="product reveal">
+          <div class="product__copy">
+            <p class="product__label">Motosiklet ilan platformu</p>
+            <h3 class="mb-wordmark"><span>Motorum</span><span>Burada</span></h3>
+            <p class="product__lead">Motosiklet, ekipman ve yedek parça alıp satanlar için tek konusu motosiklet olan pazar yeri. Web, iOS ve Android'de yayında.</p>
+
+            <ul class="product__features">
+              <li>Detaylı arama filtreleri</li>
+              <li>Uygulama içi mesajlaşma</li>
+              <li>Harita üzerinde ilanlar</li>
+              <li>Servis randevusu</li>
+              <li>Garajım &amp; favoriler</li>
+              <li>Mağaza ve kurumsal üyelik</li>
+            </ul>
+
+            <div class="product__stack">
+              <span>Next.js</span><span>.NET API</span><span>iOS &amp; Android</span><span>PostgreSQL</span><span>EİDS entegrasyonu</span>
+            </div>
+
+            <div class="product__links">
+              <a class="btn btn--light" href="https://motorumburada.com" target="_blank" rel="noopener">
+                motorumburada.com
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+              <a class="store" href="https://apps.apple.com/tr/app/id6791850764" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M16.4 12.6c0-2.4 2-3.5 2-3.6-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.2-2.8.8-3.5.8s-1.8-.8-3-.8A4.5 4.5 0 0 0 4.7 9.5c-1.6 2.8-.4 6.9 1.1 9.2.8 1.1 1.7 2.3 2.9 2.3 1.2-.1 1.6-.8 3-.8s1.8.8 3 .7c1.3 0 2.1-1.1 2.8-2.2a10 10 0 0 0 1.3-2.6s-2.4-1-2.4-3.5zM14.1 5.6A3.3 3.3 0 0 0 14.9 3a3.5 3.5 0 0 0-2.3 1.2 3.2 3.2 0 0 0-.8 2.4 2.9 2.9 0 0 0 2.3-1z"/></svg>
+                <span><small>İndir</small>App Store</span>
+              </a>
+              <a class="store" href="https://play.google.com/store/apps/details?id=com.motorumburada" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M5.5 3.2a1 1 0 0 1 1.5-.9l12.6 8.8a1 1 0 0 1 0 1.8L7 21.7a1 1 0 0 1-1.5-.9z"/></svg>
+                <span><small>Edinin</small>Google Play</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__visual" aria-hidden="true">
+            <div class="phone">
+              <div class="phone__notch"></div>
+              <div class="phone__screen">
+                <div class="app__top">
+                  <span class="app__logo"><b>Motorum</b><b>Burada</b></span>
+                  <span class="app__bell"></span>
+                </div>
+                <div class="app__search"><i></i><span>Marka, model veya parça ara</span></div>
+                <div class="app__cats"><span class="on">Motosiklet</span><span>Ekipman</span><span>Parça</span></div>
+                <div class="app__list">
+                  <div class="app__item"><div class="app__img app__img--1"></div><div class="app__meta"><b></b><b></b><i></i></div></div>
+                  <div class="app__item"><div class="app__img app__img--2"></div><div class="app__meta"><b></b><b></b><i></i></div></div>
+                  <div class="app__item"><div class="app__img app__img--3"></div><div class="app__meta"><b></b><b></b><i></i></div></div>
+                </div>
+                <div class="app__tabbar"><i class="on"></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="product__badge"><span>Web</span><span>iOS</span><span>Android</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ İŞLER ============ -->
+    <section class="section" id="isler">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Yaptığımız işler</p>
+          <h2>Yayında olan çalışmalarımız.</h2>
+          <p>Tasarımından yazılımına kadar bizim hazırladığımız, şu anda canlıda olan siteler. Hepsini ziyaret edip inceleyebilirsiniz.</p>
+        </div>
+
+        <article class="work reveal">
+          <div class="work__shots">
+            <figure class="shot">
+              <div class="shot__bar" aria-hidden="true">
+                <span class="shot__dots"><i></i><i></i><i></i></span>
+                <span class="shot__url"><svg><use href="#i-shield"/></svg>camlicataksikars.com</span>
+              </div>
+              <img src="isler/camlica-taksi.jpg" width="1280" height="800" loading="lazy" decoding="async"
+                   alt="Çamlıca Taksi Kars web sitesinin masaüstü görünümü">
+            </figure>
+            <figure class="shot shot--phone">
+              <img src="isler/camlica-taksi-mobil.jpg" width="390" height="720" loading="lazy" decoding="async"
+                   alt="Çamlıca Taksi Kars web sitesinin telefon görünümü">
+            </figure>
+          </div>
+
+          <div class="work__copy">
+            <p class="work__tag"><span><svg><use href="#i-car"/></svg>Ulaşım</span><span><svg><use href="#i-pin"/></svg>Kars</span></p>
+            <h3>Çamlıca Taksi</h3>
+            <p class="work__lead">Kars merkezde 7/24 çalışan taksi durağı için, siteye giren kişiyi tek dokunuşta aramaya yönlendiren bir tanıtım sitesi.</p>
+            <ul class="ticks">
+              <li>Tıkla-ara ve WhatsApp'tan konum gönderme düğmeleri</li>
+              <li>Havalimanı, tren garı, otogar ve Sarıkamış – Ani – Çıldır transfer sayfaları</li>
+              <li>Turistler için Türkçe – İngilizce dil desteği</li>
+              <li>Kars çevresindeki mesafeleri gösteren şematik harita</li>
+              <li>Mobil öncelikli, hızlı açılan tasarım</li>
+            </ul>
+            <a class="btn btn--primary" href="https://www.camlicataksikars.com/" target="_blank" rel="noopener">
+              Siteyi ziyaret et <svg><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="work work--flip reveal">
+          <div class="work__shots">
+            <figure class="shot">
+              <div class="shot__bar" aria-hidden="true">
+                <span class="shot__dots"><i></i><i></i><i></i></span>
+                <span class="shot__url"><svg><use href="#i-shield"/></svg>buyukcekmecesusiparisi.com.tr</span>
+              </div>
+              <img src="isler/bayramoglu-su.jpg" width="1280" height="800" loading="lazy" decoding="async"
+                   alt="Bayramoğlu Su Bayisi web sitesinin masaüstü görünümü">
+            </figure>
+            <figure class="shot shot--phone">
+              <img src="isler/bayramoglu-su-mobil.jpg" width="390" height="720" loading="lazy" decoding="async"
+                   alt="Bayramoğlu Su Bayisi web sitesinin telefon görünümü">
+            </figure>
+          </div>
+
+          <div class="work__copy">
+            <p class="work__tag"><span><svg><use href="#i-truck"/></svg>Su &amp; tüp bayisi</span><span><svg><use href="#i-pin"/></svg>Büyükçekmece / İstanbul</span></p>
+            <h3>Bayramoğlu Su Bayisi</h3>
+            <p class="work__lead">Celaliye'de 25 yıldır su ve tüp gaz dağıtan bayi için, siparişi telefon trafiğine boğmadan WhatsApp'a taşıyan bir sipariş sitesi.</p>
+            <ul class="ticks">
+              <li>Damacana, bardak su, pet su ve tüp gaz için ürün sayfaları</li>
+              <li>“Siparişe ekle” ile toplu sipariş oluşturup WhatsApp'tan gönderme</li>
+              <li>Celaliye – Kamiloba ve Kumburgaz – Küme Evler için ayrı sipariş hatları</li>
+              <li>Teslimat yapılan bölgeler, kurumsal abonelik ve SSS sayfaları</li>
+              <li>“Büyükçekmece su siparişi” aramalarına göre kurgulanmış içerik</li>
+            </ul>
+            <a class="btn btn--primary" href="https://www.buyukcekmecesusiparisi.com.tr/" target="_blank" rel="noopener">
+              Siteyi ziyaret et <svg><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <aside class="partner reveal">
+          <a class="partner__shot" href="https://yunusedizer.software/" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <img src="isler/edizer-portfolyo.jpg" width="1280" height="800" loading="lazy" decoding="async" alt="">
+          </a>
+          <div class="partner__copy">
+            <p class="partner__label"><svg><use href="#i-users"/></svg>İş birliği</p>
+            <h3>Yunus Emre Edizer</h3>
+            <p>Projelerde birlikte çalıştığımız full-stack yazılım mühendisi. Backend mimarisi, yapay zekâ ve dağıtık sistemler tarafında destek veriyor.</p>
+            <a class="link-arrow" href="https://yunusedizer.software/" target="_blank" rel="noopener">yunusedizer.software <svg><use href="#i-arrow"/></svg></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section section--ink" id="surec">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Süreç</p>
+          <h2>Sürprizsiz, adım adım ilerleyen bir çalışma düzeni.</h2>
+          <p>Her projede ne yapılacağı, ne zaman teslim edileceği ve ne kadar tutacağı en baştan yazılı olarak belli.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__no">01</span>
+            <h3>Keşif görüşmesi</h3>
+            <p>İşinizi, hedeflerinizi ve bütçenizi dinliyoruz. Gerçekten neye ihtiyacınız olduğunu birlikte netleştiriyoruz.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__no">02</span>
+            <h3>Yazılı teklif</h3>
+            <p>Kapsam, teslim takvimi ve fiyat tek bir belgede. Onayınız olmadan tek satır kod yazılmaz.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__no">03</span>
+            <h3>Tasarım &amp; geliştirme</h3>
+            <p>Düzenli ara teslimlerle ilerliyoruz; çalışan sürümü görüp yorumlarınızı süreç içinde ekliyoruz.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__no">04</span>
+            <h3>Yayın &amp; destek</h3>
+            <p>Canlıya alma, kullanım eğitimi ve yayından sonra bakım. Proje teslim edilince yalnız bırakmıyoruz.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ APPROACH ============ -->
+    <section class="section" id="yaklasim">
+      <div class="container approach">
+        <div class="approach__intro reveal">
+          <p class="kicker">Yaklaşım</p>
+          <h2>Büyük ajans kalitesi, yerel işletme samimiyeti.</h2>
+          <p>Kars'ta kurulduk; Türkiye'nin her yerindeki işletmelerle uzaktan çalışıyoruz. Küçük bir ekip olmanın avantajını size yansıtıyoruz: hızlı karar, doğrudan iletişim, gereksiz maliyet yok.</p>
+          <a class="btn btn--primary" href="#iletisim">Projenizi anlatın</a>
+        </div>
+
+        <div class="principles">
+          <div class="principle reveal">
+            <div class="principle__icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+            <div><h3>Tek muhatap</h3><p>Projenizi geliştiren kişiyle doğrudan konuşursunuz; mesajınız aracılarda kaybolmaz.</p></div>
+          </div>
+          <div class="principle reveal">
+            <div class="principle__icon"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9zM14 3v6h6M9 14l2 2 4-4"/></svg></div>
+            <div><h3>Net kapsam, şeffaf fiyat</h3><p>Sabit kapsam ve yazılı teklif. Sonradan çıkan “gizli kalem” yok.</p></div>
+          </div>
+          <div class="principle reveal">
+            <div class="principle__icon"><svg viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
+            <div><h3>Hesaplar sizin adınıza</h3><p>Alan adı, barındırma ve reklam hesapları işletmenize ait olur; bize bağımlı kalmazsınız.</p></div>
+          </div>
+          <div class="principle reveal">
+            <div class="principle__icon"><svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg></div>
+            <div><h3>Resmî ve faturalı</h3><p>Kars Vergi Dairesi'ne kayıtlı faal mükellefiz; tüm hizmetler faturalı sunulur.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section--soft" id="sss">
+      <div class="container faq">
+        <div class="section__head reveal">
+          <p class="kicker">Sık sorulan sorular</p>
+          <h2>Aklınıza takılanlar.</h2>
+        </div>
+
+        <div class="faq__list">
+          <details class="reveal">
+            <summary>Bir web sitesi ne kadar sürede hazır olur?</summary>
+            <p>Süre kapsama bağlıdır. Tanıtım amaçlı kurumsal siteler, özel yazılım ve e-ticaret projelerine göre çok daha kısa sürede tamamlanır. Keşif görüşmesinden sonra size yazılı bir teslim takvimi veriyoruz.</p>
+          </details>
+          <details class="reveal">
+            <summary>Fiyatlandırma nasıl belirleniyor?</summary>
+            <p>Kısa bir görüşmeyle ihtiyacınızı netleştiriyor, ardından kapsamı, takvimi ve toplam tutarı içeren yazılı bir teklif hazırlıyoruz. Onayladığınız kapsamın dışında ek ücret çıkmaz.</p>
+          </details>
+          <details class="reveal">
+            <summary>Sadece Kars'taki işletmelerle mi çalışıyorsunuz?</summary>
+            <p>Hayır. Kars'ta yüz yüze görüşebiliyoruz; Türkiye'nin her yerindeki işletmelerle görüntülü görüşme ve çevrim içi araçlarla sorunsuz çalışıyoruz.</p>
+          </details>
+          <details class="reveal">
+            <summary>Proje bittikten sonra destek veriyor musunuz?</summary>
+            <p>Evet. Yayın sonrası hata düzeltme, güncelleme ve içerik desteği için ihtiyacınıza uygun bakım seçenekleri sunuyoruz.</p>
+          </details>
+          <details class="reveal">
+            <summary>Fatura kesiyor musunuz?</summary>
+            <p>Evet. Tazegül Yazılım ve Danışmanlık, Kars Vergi Dairesi'ne kayıtlı bir işletmedir ve tüm hizmetler için fatura düzenlenir.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="iletisim">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <p class="kicker">İletişim</p>
+          <h2>Projenizi konuşalım.</h2>
+          <p>Üç kısa adımda ihtiyacınızı anlatın; mesajınız hazır şekilde WhatsApp'ta açılsın. Dilerseniz doğrudan arayabilirsiniz.</p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon"><svg><use href="#i-phone"/></svg></span>
+              <div><small>Telefon</small><a href="tel:+905388978856">0538 897 88 56</a></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg><use href="#i-wa"/></svg></span>
+              <div><small>WhatsApp</small><a href="https://wa.me/905388978856" target="_blank" rel="noopener">Mesaj gönderin</a></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <div><small>Adres</small><a href="https://www.google.com/maps/search/?api=1&amp;query=%C4%B0stasyon+Mah.+%C4%B0smail+Aytemiz+Cad.+No+147+Merkez+Kars" target="_blank" rel="noopener">İstasyon Mah. İsmail Aytemiz Cad.<br>No: 147 D: 6, Merkez / Kars</a></div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="wizard reveal" id="wizard" novalidate>
+          <div class="wizard__top">
+            <ol class="wizard__steps">
+              <li class="is-active" data-dot="1"><b>1</b><span>Hizmet</span></li>
+              <li data-dot="2"><b>2</b><span>Detaylar</span></li>
+              <li data-dot="3"><b>3</b><span>İletişim</span></li>
+            </ol>
+            <div class="wizard__bar"><i id="wizBar"></i></div>
+          </div>
+
+          <!-- Adım 1 -->
+          <fieldset class="wstep" data-step="1">
+            <legend tabindex="-1">Ne yaptırmak istiyorsunuz?</legend>
+            <p class="wstep__hint">Birden fazla seçebilirsiniz.</p>
+            <div class="tiles">
+              <label class="tile"><input type="checkbox" name="hizmet" value="Web sitesi"><span><svg><use href="#i-monitor"/></svg>Web sitesi</span></label>
+              <label class="tile"><input type="checkbox" name="hizmet" value="E-ticaret"><span><svg><use href="#i-cart"/></svg>E-ticaret</span></label>
+              <label class="tile"><input type="checkbox" name="hizmet" value="Mobil uygulama"><span><svg><use href="#i-mobile"/></svg>Mobil uygulama</span></label>
+              <label class="tile"><input type="checkbox" name="hizmet" value="Özel yazılım"><span><svg><use href="#i-code"/></svg>Özel yazılım</span></label>
+              <label class="tile"><input type="checkbox" name="hizmet" value="Dijital reklam"><span><svg><use href="#i-megaphone"/></svg>Dijital reklam</span></label>
+              <label class="tile"><input type="checkbox" name="hizmet" value="SEO"><span><svg><use href="#i-search"/></svg>SEO</span></label>
+              <label class="tile tile--wide"><input type="checkbox" name="hizmet" value="Danışmanlık"><span><svg><use href="#i-bulb"/></svg>Danışmanlık · henüz emin değilim</span></label>
+            </div>
+          </fieldset>
+
+          <!-- Adım 2 -->
+          <fieldset class="wstep" data-step="2" hidden>
+            <legend tabindex="-1">Projenizden biraz bahsedin.</legend>
+            <div class="wgroup">
+              <p class="wgroup__label">Sektörünüz</p>
+              <div class="choices">
+                <label><input type="radio" name="sektor" value="Otel &amp; pansiyon"><span>Otel &amp; pansiyon</span></label>
+                <label><input type="radio" name="sektor" value="Restoran &amp; kafe"><span>Restoran &amp; kafe</span></label>
+                <label><input type="radio" name="sektor" value="Oto galeri &amp; servis"><span>Oto galeri &amp; servis</span></label>
+                <label><input type="radio" name="sektor" value="Sağlık &amp; klinik"><span>Sağlık &amp; klinik</span></label>
+                <label><input type="radio" name="sektor" value="Mağaza &amp; perakende"><span>Mağaza &amp; perakende</span></label>
+                <label><input type="radio" name="sektor" value="Eğitim &amp; kurs"><span>Eğitim &amp; kurs</span></label>
+                <label><input type="radio" name="sektor" value="Diğer"><span>Diğer</span></label>
+              </div>
+            </div>
+            <div class="wgroup">
+              <p class="wgroup__label">Şu an bir web siteniz var mı?</p>
+              <div class="choices">
+                <label><input type="radio" name="mevcut" value="Var, yenilemek istiyorum"><span>Var, yenilemek istiyorum</span></label>
+                <label><input type="radio" name="mevcut" value="Yok, sıfırdan başlıyoruz"><span>Yok, sıfırdan başlıyoruz</span></label>
+              </div>
+            </div>
+            <div class="wgroup">
+              <p class="wgroup__label">Ne zaman başlamak istersiniz?</p>
+              <div class="choices">
+                <label><input type="radio" name="zaman" value="Hemen"><span>Hemen</span></label>
+                <label><input type="radio" name="zaman" value="1 ay içinde"><span>1 ay içinde</span></label>
+                <label><input type="radio" name="zaman" value="1–3 ay içinde"><span>1–3 ay içinde</span></label>
+                <label><input type="radio" name="zaman" value="Henüz araştırıyorum"><span>Henüz araştırıyorum</span></label>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- Adım 3 -->
+          <fieldset class="wstep" data-step="3" hidden>
+            <legend tabindex="-1">Size nasıl ulaşalım?</legend>
+            <div class="form__row">
+              <label class="field">
+                <span>Ad Soyad</span>
+                <input name="ad" type="text" autocomplete="name" required placeholder="Adınız ve soyadınız">
+              </label>
+              <label class="field">
+                <span>İşletme <em>(isteğe bağlı)</em></span>
+                <input name="firma" type="text" autocomplete="organization" placeholder="İşletmenizin adı">
+              </label>
+            </div>
+            <label class="field">
+              <span>Projenizi kısaca anlatın</span>
+              <textarea name="mesaj" rows="3" required placeholder="Örn. Otelimiz için online rezervasyon alabileceğimiz bir site istiyoruz…"></textarea>
+            </label>
+            <div class="preview">
+              <p class="preview__label"><svg><use href="#i-wa"/></svg>Gönderilecek mesaj</p>
+              <pre class="preview__text" id="waPreview"></pre>
+            </div>
+          </fieldset>
+
+          <p class="form__error" id="formError" role="alert" hidden></p>
+
+          <div class="wizard__nav">
+            <button class="btn btn--ghost" type="button" id="wizBack" hidden><svg><use href="#i-back"/></svg>Geri</button>
+            <button class="btn btn--primary" type="button" id="wizNext">Devam <svg><use href="#i-arrow"/></svg></button>
+            <button class="btn btn--primary" type="submit" id="wizSubmit" hidden><svg><use href="#i-wa"/></svg>WhatsApp ile gönder</button>
+          </div>
+          <p class="form__note">Bilgileriniz bu sitede saklanmaz; yalnızca WhatsApp mesajınıza eklenir. <a href="gizlilik.html">Gizlilik ve KVKK</a></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="brand" href="#top">
+            <img src="favicon.svg" alt="" width="34" height="34">
+            <span class="brand__text"><strong>Tazegül</strong><small>Yazılım &amp; Danışmanlık</small></span>
+          </a>
+          <p>Kars'tan Türkiye'ye; yazılım, web ve dijital reklam hizmetleri.</p>
+        </div>
+        <nav class="footer__nav" aria-label="Alt menü">
+          <a href="#hizmetler">Hizmetler</a>
+          <a href="#sektorler">Sektörler</a>
+          <a href="#urunler">Ürünler</a>
+          <a href="#isler">İşler</a>
+          <a href="#surec">Süreç</a>
+          <a href="#yaklasim">Yaklaşım</a>
+          <a href="#sss">SSS</a>
+          <a href="#iletisim">İletişim</a>
+        </nav>
+      </div>
+
+      <dl class="legal">
+        <div><dt>Ünvan</dt><dd>Tazegül Yazılım ve Danışmanlık — Emirhan Tazegül</dd></div>
+        <div><dt>Vergi Dairesi / VKN</dt><dd>Kars / 8331187815</dd></div>
+        <div><dt>Adres</dt><dd>İstasyon Mah. İsmail Aytemiz Cad. No: 147 D: 6, Merkez / Kars</dd></div>
+        <div><dt>İletişim</dt><dd><a href="tel:+905388978856">0538 897 88 56</a></dd></div>
+      </dl>
+
+      <div class="footer__bottom">
+        <span>© <span id="year">2026</span> Tazegül Yazılım ve Danışmanlık. Tüm hakları saklıdır.</span>
+        <span>MotorumBurada, Tazegül Yazılım ve Danışmanlık markasıdır. · <a href="gizlilik.html">Gizlilik ve KVKK</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/905388978856" target="_blank" rel="noopener" aria-label="WhatsApp ile yazın">
+    <svg aria-hidden="true"><use href="#i-wa"/></svg>
+  </a>
+
+  <nav class="mbar" id="mbar" aria-label="Hızlı iletişim">
+    <a href="tel:+905388978856"><svg><use href="#i-phone"/></svg>Ara</a>
+    <a href="https://wa.me/905388978856" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+    <a href="#iletisim" class="mbar__cta">Teklif al<svg><use href="#i-arrow"/></svg></a>
+  </nav>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
